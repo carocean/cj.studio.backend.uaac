@@ -1,0 +1,4 @@
+include "cj.studio.backend.uaac.debug"
+include "cj.studio.backend.uaac.stub"
+include "cj.studio.backend.uaac.plugin"
+include "cj.studio.backend.uaac.app"

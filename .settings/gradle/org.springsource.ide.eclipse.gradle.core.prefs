@@ -1,0 +1,5 @@
+#org.springsource.ide.eclipse.gradle.core.preferences.GradleProjectPreferences
+#Sun Dec 23 00:29:27 CST 2018
+build.family.org.gradle.tooling.model.eclipse.HierarchicalEclipseProject=;cj.studio.backend.uaac.app;cj.studio.backend.uaac.debug;cj.studio.backend.uaac.plugin;cj.studio.backend.uaac.stub;
+org.springsource.ide.eclipse.gradle.linkedresources=
+org.springsource.ide.eclipse.gradle.rootprojectloc=
