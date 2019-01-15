@@ -62,4 +62,4 @@ task release(type: Copy) {
 }
 release.dependsOn ":cj.studio.backend.uaac.stub:release"
 release.dependsOn ":cj.studio.backend.uaac.plugin:release"
-release.dependsOn ":cj.studio.backend.uaac.app:release"
+release.dependsOn ":cj.studio.backend.uaac.program:release"
