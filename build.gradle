@@ -57,9 +57,10 @@ subprojects {
 }
 task release(type: Copy) {
  		doLast {
-			println 'uaac 统一认证授权中心 发布完毕!'
+			println 'uacc 统一认证授权中心 发布完毕!'
 		}
 }
-release.dependsOn ":cj.studio.backend.uaac.stub:release"
-release.dependsOn ":cj.studio.backend.uaac.plugin:release"
-release.dependsOn ":cj.studio.backend.uaac.program:release"
+release.dependsOn ":cj.studio.backend.uacc.stub:release"
+release.dependsOn ":cj.studio.backend.uacc.plugin:release"
+release.dependsOn ":cj.studio.backend.uacc.program:release"
+tasks.getByPath(':cj.studio.backend.uacc.program:release').mustRunAfter tasks.getByPath(':cj.studio.backend.uacc.stub:release')

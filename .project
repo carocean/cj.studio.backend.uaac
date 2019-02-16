@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>cj.studio.backend.uaac</name>
+	<name>cj.studio.backend.uacc</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +17,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1546173355037</id>
+			<id>1548942842886</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -25,19 +25,19 @@
 				<arguments>
 					<matcher>
 						<id>org.eclipse.ui.ide.multiFilter</id>
-						<arguments>1.0-projectRelativePath-equals-true-false-cj.studio.backend.uaac.stub</arguments>
+						<arguments>1.0-projectRelativePath-equals-true-false-cj.studio.backend.uacc.plugin</arguments>
 					</matcher>
 					<matcher>
 						<id>org.eclipse.ui.ide.multiFilter</id>
-						<arguments>1.0-projectRelativePath-equals-true-false-cj.studio.backend.uaac.plugin</arguments>
+						<arguments>1.0-projectRelativePath-equals-true-false-cj.studio.backend.uacc.program</arguments>
 					</matcher>
 					<matcher>
 						<id>org.eclipse.ui.ide.multiFilter</id>
-						<arguments>1.0-projectRelativePath-equals-true-false-cj.studio.backend.uaac.app</arguments>
+						<arguments>1.0-projectRelativePath-equals-true-false-cj.studio.backend.uacc.stub</arguments>
 					</matcher>
 					<matcher>
 						<id>org.eclipse.ui.ide.multiFilter</id>
-						<arguments>1.0-projectRelativePath-equals-true-false-cj.studio.backend.uaac.debug</arguments>
+						<arguments>1.0-projectRelativePath-equals-true-false-cj.studio.backend.uacc.debug</arguments>
 					</matcher>
 				</arguments>
 			</matcher>

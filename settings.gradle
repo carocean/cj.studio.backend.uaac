@@ -1,4 +1,4 @@
-include "cj.studio.backend.uaac.debug"
-include "cj.studio.backend.uaac.stub"
-include "cj.studio.backend.uaac.plugin"
-include "cj.studio.backend.uaac.program"
+include "cj.studio.backend.uacc.debug"
+include "cj.studio.backend.uacc.stub"
+include "cj.studio.backend.uacc.plugin"
+include "cj.studio.backend.uacc.program"
