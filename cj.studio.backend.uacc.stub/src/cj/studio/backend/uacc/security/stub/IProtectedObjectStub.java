@@ -26,7 +26,7 @@ public interface IProtectedObjectStub {
 			@CjStubInParameter(key = "sysCode", usage = "系统代码") String sysCode);// 提供界面显示有哪些对象表，然后点进去才是对象的实例
 
 	@CjStubMethod(usage = "获取受保护对象集合")
-	@CjStubReturn(type = ArrayList.class, usage = "对象集合")
+	@CjStubReturn(type = ProtectedObjectCollection.class, usage = "对象集合")
 	ProtectedObjectCollection getProtectedObjectCollection(
 			@CjStubInParameter(key = "sysCode", usage = "系统代码") String sysCode,
 			@CjStubInParameter(key = "objColName", usage = "对象集合名") String objColName);
