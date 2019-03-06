@@ -957,3 +957,8 @@
 		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
 		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
 		at java.lang.Thread.run(Thread.java:748)
+2019年03月03日 23:20:42  信息 : -------------网关启动完毕-------------------
+2019年03月03日 23:24:13  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.backend.uacc/cmdtools/gateway/lib/share
+2019年03月04日 11:26:04  信息 : -------------网关启动完毕-------------------
+2019年03月06日 09:46:07  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 缺少路由目标，请求侦被丢掉：/
+2019年03月06日 17:38:17  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.backend.uacc/cmdtools/gateway/lib/share
