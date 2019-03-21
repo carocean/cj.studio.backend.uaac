@@ -1456,3 +1456,5 @@
 		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
 		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
 		at java.lang.Thread.run(Thread.java:748)
+2019年03月10日 09:39:37  信息 : -------------网关启动完毕-------------------
+2019年03月13日 15:25:20  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.backend.uacc/cmdtools/gateway/lib/share

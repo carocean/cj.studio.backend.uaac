@@ -18,17 +18,27 @@ sourceSets {
  } 
 
 dependencies {
+	compile group: 'cj.studio.gateway2', name: 'cj.studio.gateway.stub', version: ref_cj_gateway_stub_version
 	compile project(':cj.studio.backend.uacc.stub');
 	compile fileTree('../global/runtime')
-	compile fileTree('../global/cjtools')
-	compile fileTree('src/cj/refembeds')
+	//compile fileTree('src/cj/refembeds')
 	
 }
-task releaseToHost(type: Copy) {
+task copyRefembeds(type: Copy) {
+    into 'src/cj/refembeds'
+    from(configurations.all) {
+        include 'cj.studio.gateway.stub-*.jar'
+       // delete fileTree("src/cj/refembeds").matching {
+        //	include "cj.studio.gateway.stub-*.jar"
+    	//}
+    }
+}
+task releaseToHost(dependsOn:copyRefembeds,type: Copy) {
  dependsOn "build",":cj.studio.backend.uacc.stub:release"
  from 'build/libs/'
 into '../cmdtools/gateway/assemblies/uacc'
  include '**/*.jar'
+ exclude '**/*-javadoc.jar','**/*-sources.jar'
  }
  
  task release(type:Copy){

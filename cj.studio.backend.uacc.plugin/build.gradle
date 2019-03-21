@@ -29,6 +29,7 @@ task releaseToHost(type: Copy) {
  from 'build/libs/'
 into '../cmdtools/gateway/assemblies/uacc/plugins/uacc.plugin'
  include '**/*.jar'
+ exclude '**/*-javadoc.jar','**/*-sources.jar'
  }
  
  task release(type:Copy){
