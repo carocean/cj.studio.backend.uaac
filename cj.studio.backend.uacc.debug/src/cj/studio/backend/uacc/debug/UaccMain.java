@@ -16,7 +16,7 @@ import cj.studio.ecm.IAssembly;
 import cj.studio.ecm.adapter.IActuator;
 import cj.studio.ecm.adapter.IAdaptable;
 
-public class DebugMain {
+public class UaccMain {
 
 
 	private static String fileName;
