@@ -14,7 +14,7 @@ import cj.studio.gateway.stub.annotation.CjStubService;
 public interface IProtectedSystemStub {
 	@CjStubMethod(usage = "添加受保护系统", command = "post")
 	void addSystem(@CjStubInContentKey(key = "info", usage = "受保护系统信息") ProtectedSystemInfo info);
-	@CjStubMethod(usage = "添加受保护系统", command = "post")
+	@CjStubMethod(usage = "更新受保护系统", command = "post")
 	void updateSystem(@CjStubInContentKey(key = "info", usage = "受保护系统信息") ProtectedSystemInfo info);
 	@CjStubMethod(usage = "移除受保护系统")
 	void removeSystem(@CjStubInParameter(key = "sysCode", usage = "系统代码") String sysCode);
