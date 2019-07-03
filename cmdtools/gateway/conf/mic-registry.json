@@ -1,13 +1,13 @@
 {
-	"guid":"260E96CD-2618-4AF9-A24C-36501D18F889",
-	"title":"cj.studio.backend.uacc",
-	"enabled":true,
-	"desc":"统一访问控制中心（中台）",
+	"guid":"8E8710A9-11EB-4F38-B901-657538057BA1",
+	"title":"空的网关",
+	"enabled":false,
+	"desc":"空的网关",
 	"mic":{
-		"location":"/infrastructurePlatform/backend/",
+		"location":"/infrastructurePlatform/frontend/",
 		"host":"tcp://localhost:7080?heartbeat=5000&initialWireSize=1&workThreadCount=2&acceptErrorPath=/website/error/",
 		"reconnDelay":6000,
 		"reconnPeriod":15000,
-		"cjtoken":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXRvcy5taWMiLCJleHAiOjMzMDkwMzk4ODY5LCJ1c2VyIjoiY2oiLCJpYXQiOjE1NTQzOTg4NjksImp0aSI6IjZhNzg3NmU1LWQzOTItNGUwYi04MWUwLTI4ZWU1ZWQxMDY0YiJ9.qw3dndxt0hK2u-sMdewT2D4ZRdQNN5qBj-nnl1BK-Tc"
+		"cjtoken":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXRvcy5taWMiLCJleHAiOjMzMDkwMzk2NDAwLCJ1c2VyIjoiY2oiLCJpYXQiOjE1NTQzOTY0MDAsImp0aSI6Ijg0MWZlODFkLWU1OTYtNGEyNC1hM2U1LTNkZTgxZmE1ZTVhZiJ9.Kxj3TL_fpfXfT9k0G3V-oZp4AQBu1hUeQv5FYlk_NfQ"
 	}
 }
